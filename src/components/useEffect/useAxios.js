@@ -32,7 +32,7 @@ export const useAxios = (opts, axiosInstance=defaultAxios) => {
 }
 
 function Axios() {
-    const {loading, data, error, reFetch} = useAxios(
+    const { loading, data, error, reFetch } = useAxios(
         {url: "https://yts.mx/api/v2/list_movies.json"}
     )
     console.log(
