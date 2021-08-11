@@ -19,3 +19,5 @@
 - [X] useFullScreen
 - [X] useNotification
 - [X] useAxios
+- [X] useClock
+- [X] useTimer
